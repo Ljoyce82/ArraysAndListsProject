@@ -49,21 +49,21 @@ namespace ArraysAndLists
             /* Using a foreach loop,
              * display the numbers in your "evens" list
              */
-            Console.WriteLine("Odd Numbers");
-            foreach (int odd in odds)
-            {
-                Console.WriteLine(odd);
-            }
-
-            /* Using a for loop,
-             * display the numbers in your "odds" list
-             */
             Console.WriteLine("Even Numbers");
             foreach(int even in evens)
             {
                 Console.WriteLine(even);
             }
 
+            /* Using a for loop,
+             * display the numbers in your "odds" list
+             */
+
+            Console.WriteLine("Odd Numbers");
+            for (int i = 0; i < odds.Count; i++)
+            {
+                Console.WriteLine(odds[i]);
+            }
         }
     }
 }
